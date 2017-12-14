@@ -7,6 +7,7 @@
     "gulp": "gulp",
     "tasks": "gulp --tasks",
     "serve": "gulp serve",
+    "build-dev": "gulp build:dev",
     "test": "gulp styles --env=development"
   },
   "author": "René Dellefont",
@@ -17,6 +18,7 @@
     "bourbon": "^4.2.7",
     "breakpoint-sass": "^2.7.1",
     "fuse.js": "^2.6.1",
+    "jekyll": "^3.0.0-beta1",
     "jquery": "^2.2.3",
     "normalize.css": "^4.1.1",
     "typi": "^3.0.0-alpha.1",

@@ -18,7 +18,7 @@ function render(pubobj) {
   Object.keys(songList).forEach((key) => {
     htmlStuff += `<p class="c-search__artist">${key}</p><ul>`;
     songList[key].forEach((value) => {
-      htmlStuff += `<li class="c-search__title">${value.title}</li>`;
+      htmlStuff += `<li class="c-search__title"><a href="#sign-up">${value.title}</a></li>`;
     });
     htmlStuff += '</ul>';
   });

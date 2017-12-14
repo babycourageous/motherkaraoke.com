@@ -31,6 +31,7 @@ function onSearchStart(ps) {
 
 searchForm.addEventListener('submit', searchHandler);
 PubSub.subscribe('searchStart', onSearchStart);
+
 /*
 
 
